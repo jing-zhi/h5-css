@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册-网易游戏中心</title>
+    <link rel="stylesheet" href="./yixin.css">
+    <link rel="icon" href="./images2/favicon.ico">
+    <script type="text/javascript" src="./yinxin.js"></script>
+</head>
+
+<body>
+    <header class="g-hd">
+        <div class="m-topbar m-topbar_active_white">
+            <div class="m-topbar-wrap">
+                <div class="m-topbar-left">
+                    <a href="" class="title_word"></a>
+                </div>
+                <div class="m-topbar-right">
+                    <ul class="m-topbar-right-nav">
+                        <li>
+                            <a href="" class="title_word">开发者中心</a>
+                        </li>
+                        <li>
+                            <a href=""class="title_word">渠道中心</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="k-c">
+        <div class="content">
+            <div class="c-toptitle">
+                <div class="t-title">
+                    <p>游戏账号注册说明</p>
+                </div>
+            </div>
+            <from class="">
+                <p class="fm-z"> 为响应国家文化部实名认证号召，自4月1日起用户申请注册网易云游戏中心务必请填写真实个人信息，
+                    以备网易云游戏中心配合国家相关部门核查身份信息。
+                    网易云游戏中心将会保证您的个人信息将不会泄露
+                </p>
+                <br/>
+                <div>
+                    <div class="fm-shou">
+                        <label class="fm-label">请输入你的手机号</label>
+                        <input type="text" id="tel" placeholder="11位手机号" maxlength="11">
+                        <div class="chulai">
+                            <img src="./images2/X.png" alt="">
+                            请输入正确格式的手机号
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fm-shou">
+                        <label class="fm-label">请输入收到的短信验证码</label>
+                        <input id="i-1" type="text" placeholder="收到的短信验证码" maxlength="11">
+                        <div class="w-bt">
+                            <a id="w-btn" href="">获取验证码</a>
+                        </div>
+                        
+                    </div>
+                    <div class="fm-shou">
+                        <label class="fm-label">请输入你的昵称</label>
+                        <input type="text" id="name" placeholder="中英文，长度不超过12个字符" maxlength="12">
+                        <div class="chulai" id="nicheng-chulai">
+                            <img src="./images2/X.png" alt="">
+                            请输入正确格式的昵称
+                        </div>
+                    </div>
+                    <div class="fm-shou">
+                        <lable class="fm-label">请输入你的密码</lable>
+                        <input type="text" id="psd" placeholder="中英文数字符号，区分大小写" type="password" maxlength="18">
+                        <div class="chulai" id="pwd">
+                            <img src="./images2/X.png" alt="">
+                            请输入正确格式的密码
+                        </div>
+                    </div>
+                    <div class="fm-shou">
+                        <label class="fm-label">请确认密码</label>
+                        <input type="text" id="querenpsd" placeholder="再次输入你的密码" type="password" maxlength="18">
+                        <div class="chulai" id="querenpsd-chulai">
+                            <img src="./images2/X.png" alt="">
+                            两次输入的密码不同
+                        </div>
+                    </div>
+                    <div class="fm-shou">
+                        <label class="fm-label">请输入你的身份证号</label>
+                        <input type="text" id="IDnumber" placeholder="18位身份证号" type="password" maxlength="18">
+                        <div class="chulai" id="IDnumber-chulai">
+                            <img src="./images2/X.png" alt="">
+                            请输入正确格式的身份证号
+                        </div>
+                    </div>
+                    <div class="fm-shou">
+                        <label class="fm-label">请输入你的真实姓名</label>
+                        <input type="text" id="username" placeholder="你的真实姓名" maxlength="18">
+                        <div class="chulai" id="xingming-chulai">
+                            <img src="./images2/X.png" alt="">
+                            请输入你的真实姓名
+                        </div>
+                    </div>
+                    <div class="fm-shou">
+                        <div>
+                            <label>
+                                <input class="f-mr10" type="checkbox">
+                                我同意
+                                <b>《用户协议》</b>
+                            </label>
+                            <br />
+                            <laber>
+                                <input class="f-mr10" type="checkbox">
+                                我同意
+                                <b>《文化部网络游戏服务格式化协议》</b>
+                            </laber>
+                        </div>
+                    </div>
+                    <div class="fm-shou">
+                        <div class="w-bt1">
+                            <!-- <a id="w-btn1" href="">注册</a> -->
+                            <form action="" onsubmit="return fun1()">
+                                <input id="w-btn1" type="submit" value="提交" >
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </from>
+        </div>
+
+    </div>
+
+    <footer class="g-ft">
+        <div>
+            <div class="g-ft-1">
+                <span>地址:</span>
+                <span>杭州市滨江区网商路599号网易大厦</span>
+            </div>
+            <br/>
+            <div class="g-ft-2">
+                <span>杭州质云科技有限公司版权所有 © 1997-2016 · 浙ICP备17006647号 · 增值电信业务经营许可证 浙B2-20161040</span>
+            </div>
+            <p class="fo-gh">
+                <a href="">点击查看家长监护工程</a>
+            </p>
+            <p class="fo-gh">
+                <a href="">点击查看防沉迷系统介绍</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+/* body{
+    background-image: url(./images2/美图1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+
+.g-hd{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    height: 66px;
+    
+}
+.g-hd:hover .m-topbar{
+    background-color: #222;
+}
+.m-topbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: static;
+    background: #fff;
+}
+.m-topbar_active_white{
+    box-shadow: 0 3px 4px #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.m-topbar-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0 16px 0;
+    margin: 0 auto;
+    width: 1200px;
+}
+.m-topbar-right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+ul,ol{
+    list-style: none;
+}
+.m-topbar-right-nav,.m-topbar-right-login{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 -apple-system, BlinkMacSystemFont, PingFangSC-Light,Noto SansCJK, Microsoft YaHei, arial,\5FAE\8F6F\96C5\9ED1, \5b8b\4f53, Arial;
+    color: #333;
+}
+.m-topbar-left a{
+    display: inline-block;
+    background-image: url(./images2/logo1.png);
+    width: 240px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.g-hd:hover .m-topbar-left a{
+    background-image: url(./images2/logo2.png);
+}
+.m-topbar_active_white a{
+    color: #222;
+}
+.g-hd:hover .m-topbar_active_white a{
+    
+    color:#fff
+    
+}
+
+.g-hd li:hover a{
+    text-decoration: underline;
+    color: #3090fb ;
+    
+}
+a{
+    text-decoration: none;
+}
+.m-topbar-right-nav li{
+    margin-left: 40px;
+    font-size: 16px;
+}
+.k-c{
+    margin: 40px auto;
+    max-width: 1200px;
+    min-width: 960px;
+}
+.content{
+    padding-bottom: 75px;
+    margin-bottom: 60px;
+}
+.c-toptitle
+{
+    margin-bottom: 20px;
+}
+.t-title{
+    border-bottom: 1px solid #dfe2e6;
+    /* padding-bottom: 20px; */
+    font-size: 24px;
+}
+body{
+    padding-top: 66px;
+}
+form{
+    display: block;
+}
+
+.fm-z{
+    /* margin-bottom: 30px; */
+    color: #999;
+}
+.fm-shou{
+    overflow: hidden;
+    padding-left: 300px;
+    margin-bottom: 30px;
+}
+.fm-shou input:focus +.chulai{
+    display: block;
+}
+.fm-shou input:focus{
+    border: 1px solid rgb(40, 90, 226);
+}
+.chulai{
+    padding-top: 8px;
+    font-size: 14px;
+    margin-left: 7px;
+    color: #f7706c!important;
+    display: none;
+}
+.chulai img{
+    display: inline;
+    margin-top: 2px;
+    width: 16px;
+    height: 16px;
+}
+.fm-label{
+    padding-right: 0;
+    margin-left: -300px;
+    width: 300px;
+    margin-top: 10px;
+    float: left;
+    font-size: 14px;
+    text-align: right;
+    color: #4c4c4c;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"]{
+    padding: 9px;
+    width: 310px;
+    height: 18px;
+    font-size: 14px;
+    margin-left: 7px;
+    line-height: 18px;
+    color: #4c4c4e;
+    outline: none;
+    border: 1px solid #ccc;
+}
+::-webkit-input-placeholder{
+    color: #ccc;
+}
+.w-bt{
+    display: inline-block;
+    padding-top: 7px;
+    height: 30px;
+    width: 120px;
+    background: #387ee8;
+    border: 1px solid #387ee8;
+    border-radius: 5px;
+}
+#w-btn{
+    font-size: 14px;
+    margin-left: 20%;
+    color: #fff;
+}
+#i-1{
+    z-index: 100;
+    width: 164px;
+    margin-right: 20px;
+}
+.f-mr10{
+    margin-right: 10px;
+}
+b{
+    font-weight: normal;
+}
+.w-bt1{
+    display: inline-block;
+    padding-top: 7px;
+    height: 30px;
+    width: 84px;
+    background: #387ee8;
+    border: 1px solid #387ee8;
+    border-radius: 5px;
+}
+#w-btn1{
+    font-size: 14px;
+    margin-left: 23%;
+    border: none;
+    cursor: pointer;
+    background: #387ee8;
+    color: #fff;
+}
+.g-ft{
+    background-color: #fff;
+    color: #a0a0a0;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.g-ft-1,.g-ft-2{
+    display: flex;
+    justify-content: center;
+}
+.fo-gh{
+    text-align: center;
+    margin-top: 20px;
+}
+a{
+    color: #387ee8;
+}
+
+
+
